@@ -117,8 +117,6 @@
     <project path="external/jsr305" name="platform/external/jsr305" />
     <project path="external/junit" name="platform/external/junit" />
     <project path="external/kernel-headers" name="platform/external/kernel-headers" />
-
-
     <project path="external/libcap-ng" name="platform/external/libcap-ng" />
     <project path="external/libffi" name="platform/external/libffi" />
     <project path="external/libgsm" name="platform/external/libgsm" groups="pdk" />
@@ -246,15 +244,15 @@
     <project path="hardware/invensense" name="platform/hardware/invensense" groups="invensense" />
     <project path="hardware/libhardware" name="platform/hardware/libhardware" groups="pdk" />
     <project path="hardware/libhardware_legacy" name="platform/hardware/libhardware_legacy" groups="pdk" />
-	<project path="hardware/qcom/audio" name="hardware_qcom_audio" remote="BeerGang" revision="jellybean" />
-	<project path="hardware/qcom/bt" name="hardware_qcom_bt" remote="BeerGang" revision="jb4.3" />
+    <project path="hardware/qcom/audio" name="hardware_qcom_audio" remote="BeerGang" revision="jellybean" />
+    <project path="hardware/qcom/bt" name="hardware_qcom_bt" remote="BeerGang" revision="jb4.3" />
     <project path="hardware/msm7k" name="platform/hardware/msm7k" />
     <project path="hardware/qcom/display" name="platform/hardware/qcom/display" groups="qcom" />
-	<project path="hardware/qcom/gps" name="hardware_qcom_gps" remote="BeerGang" revision="jb4.3" />
+    <project path="hardware/qcom/gps" name="hardware_qcom_gps" remote="BeerGang" revision="jb4.3" />
     <project path="hardware/qcom/media" name="platform/hardware/qcom/media" groups="qcom" />
-	<project path="hardware/qcom/msm8960" name="platform/hardware/qcom/msm8960" />
+    <project path="hardware/qcom/msm8960" name="platform/hardware/qcom/msm8960" />
     <project path="hardware/qcom/power" name="platform/hardware/qcom/power" groups="qcom" />
-	<project path="hardware/qcom/sensors" name="platform/hardware/qcom/sensors" />
+    <project path="hardware/qcom/sensors" name="platform/hardware/qcom/sensors" />
     <project path="hardware/qcom/wlan" name="platform/hardware/qcom/wlan" groups="qcom_wlan" />
     <project path="hardware/ril" name="platform/hardware/ril" groups="pdk" />
     <project path="hardware/samsung_slsi/exynos5" name="platform/hardware/samsung_slsi/exynos5" groups="exynos5" />
@@ -303,7 +301,7 @@
     <project path="packages/apps/SpeechRecorder" name="platform/packages/apps/SpeechRecorder" />
     <project path="packages/apps/Stk" name="platform/packages/apps/Stk" />
     <project path="packages/apps/Tag" name="platform/packages/apps/Tag" />
-	<project path="packages/apps/Torch" name="packages_apps_Torch" remote="BeerGang" revision="jb4.3" />
+    <project path="packages/apps/Torch" name="packages_apps_Torch" remote="BeerGang" revision="jb4.3" />
     <project path="packages/apps/VideoEditor" name="platform/packages/apps/VideoEditor" />
     <project path="packages/apps/VoiceDialer" name="platform/packages/apps/VoiceDialer" />
     <project path="packages/experimental" name="platform/packages/experimental" />
@@ -383,14 +381,16 @@
     <project path="tools/idea" name="platform/tools/idea" groups="notdefault,tools" />
     <project path="tools/motodev" name="platform/tools/motodev" groups="notdefault,motodev" />
     <project path="tools/swt" name="platform/tools/swt" groups="notdefault,tools" />
-    <project path="vendor/beergang" name="vendor_beergang" remote="BeerGang" revision="jellybean" />
+    <project path="vendor/beergang" name="vendor_bgp" remote="BeerGang" revision="jellybean" />
     
-	<!-- New Additions theme engine CM -->
-	<project path="vendor/tmobile/apps/ThemeChooser" name="CyanogenMod/themes-platform-vendor-tmobile-apps-ThemeChooser" remote="github" revision="cm-10.2" />
-	<project path="vendor/tmobile/libs/com.tmobile.themes" name="CyanogenMod/android_vendor_tmobile_libs_com.tmobile.themes" remote="github" revision="cm-10.2" />
-	<project path="vendor/tmobile/providers/ThemeManager" name="CyanogenMod/android_vendor_tmobile_providers_ThemeManager" remote="github" revision="cm-10.2" />
+    <!-- New Additions theme engine CM -->
+    <project path="vendor/tmobile/apps/ThemeChooser" name="CyanogenMod/themes-platform-vendor-tmobile-apps-ThemeChooser" remote="github" revision="cm-10.2" />
+    <project path="vendor/tmobile/libs/com.tmobile.themes" name="CyanogenMod/android_vendor_tmobile_libs_com.tmobile.themes" remote="github" revision="cm-10.2" />
+    <project path="vendor/tmobile/providers/ThemeManager" name="CyanogenMod/android_vendor_tmobile_providers_ThemeManager" remote="github" revision="cm-10.2" />
+
+    <!-- Koush Superuser -->
+    <project path="external/koush/Superuser" name="CyanogenMod/Superuser" remote="github" revision="cm-10.2" />
+    <project path="external/koush/Widgets" name="CyanogenMod/Widgets" remote="github" revision="cm-10.2" />
+
 	
-	<!-- Koush Superuser -->
-	<project path="external/koush/Superuser" name="CyanogenMod/Superuser" remote="github" revision="cm-10.2" />
-	<project path="external/koush/Widgets" name="CyanogenMod/Widgets" remote="github" revision="cm-10.2" />
 </manifest>
