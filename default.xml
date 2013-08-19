@@ -381,7 +381,7 @@
     <project path="tools/idea" name="platform/tools/idea" groups="notdefault,tools" />
     <project path="tools/motodev" name="platform/tools/motodev" groups="notdefault,motodev" />
     <project path="tools/swt" name="platform/tools/swt" groups="notdefault,tools" />
-    <project path="vendor/beergang" name="vendor_bgp" remote="BeerGang" revision="jellybean" />
+    <project path="vendor/bgp" name="vendor_bgp" remote="BeerGang" revision="jellybean" />
     
     <!-- New Additions theme engine CM -->
     <project path="vendor/tmobile/apps/ThemeChooser" name="CyanogenMod/themes-platform-vendor-tmobile-apps-ThemeChooser" remote="github" revision="cm-10.2" />
