@@ -13,6 +13,9 @@
     <remote name="BeerGangProject"
     fetch="git://github.com/BeerGangProject/" />
     
+    <remote name="CyanDreamProject"
+    fetch="git://github.com/CyanDreamProject/" />
+    
     <remote name="github"
     fetch="git://github.com" />
     
