@@ -10,14 +10,17 @@
     <remote name="cm"
     fetch="git://github.com/CyanogenMod/" />
     
+    <remote name="BeerGangProject"
+    fetch="git://github.com/BeerGangProject" />
+    
     <remote name="github"
     fetch="git://github.com" />
     
-    <default revision="refs/tags/android-4.3_r3.1"
+    <default revision="refs/tags/android-4.3_r2.1"
     remote="aosp"
     sync-j="4" />
     
-    <project path="build" name="platform_build" remote="BeerGang" revision="jellybean" >
+    <project path="build" name="platform_build" remote="AndyFox2013" revision="jellybean" >
         <copyfile src="core/root.mk" dest="Makefile" />
     </project>
     <project path="abi/cpp" name="platform/abi/cpp" groups="pdk" />
@@ -381,7 +384,7 @@
     <project path="tools/idea" name="platform/tools/idea" groups="notdefault,tools" />
     <project path="tools/motodev" name="platform/tools/motodev" groups="notdefault,motodev" />
     <project path="tools/swt" name="platform/tools/swt" groups="notdefault,tools" />
-    <project path="vendor/bgp" name="vendor_bgp" remote="BeerGang" revision="jellybean" />
+    <project path="vendor/cyandream" name="vendor_bgp" remote="AndyFox2013" revision="jellybean" />
     
     <!-- New Additions theme engine CM -->
     <project path="vendor/tmobile/apps/ThemeChooser" name="CyanogenMod/themes-platform-vendor-tmobile-apps-ThemeChooser" remote="github" revision="cm-10.2" />
