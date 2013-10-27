@@ -4,8 +4,8 @@
     <remote name="aosp"
     fetch="https://android-review.googlesource.com/" />
     
-    <remote name="BeerGang"
-    fetch="git://github.com/BeerGangProject/" />
+    <remote name="AndyFox2013"
+    fetch="git://github.com/AndyFox2013/" />
     
     <remote name="cm"
     fetch="git://github.com/CyanogenMod/" />
@@ -13,7 +13,7 @@
     <remote name="github"
     fetch="git://github.com" />
     
-    <default revision="refs/tags/android-4.3_r2.1"
+    <default revision="refs/tags/android-4.3_r3.1"
     remote="aosp"
     sync-j="4" />
     
