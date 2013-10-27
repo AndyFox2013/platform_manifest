@@ -11,7 +11,7 @@
     fetch="git://github.com/CyanogenMod/" />
     
     <remote name="BeerGangProject"
-    fetch="git://github.com/BeerGangProject" />
+    fetch="git://github.com/BeerGangProject/" />
     
     <remote name="github"
     fetch="git://github.com" />
